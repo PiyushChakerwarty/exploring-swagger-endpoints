@@ -28,3 +28,17 @@ Before you get started, ensure that you have the following prerequisites:
     ```python swagger_endpoints.py
 
 
+## Usage:
+
+Modify the swagger_url variable in the Python script (swagger_endpoints.py) to use a different Swagger JSON URL if needed.
+Run the script to get a list of endpoints from the Swagger documentation.
+
+## Example Output:
+
+Here is an example of what the script output might look like:
+    
+    Endpoints:
+    /pet
+    /store/inventory
+    /user
+    /pet/{petId}
