@@ -1,7 +1,7 @@
 import requests
 import json
 
-# URL of the Swagger JSON
+# URL of the Swagger JSON fie
 swagger_url = "http://petstore.swagger.io/v2/swagger.json"
 
 # Fetch the Swagger JSON
