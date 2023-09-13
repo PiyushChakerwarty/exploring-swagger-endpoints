@@ -14,7 +14,7 @@ if response.status_code == 200:
     paths = swagger_data.get("paths", {})
     endpoints = list(paths.keys())
 
-    # Print the endpoints
+    # Display the endpoints
     print("Endpoints:")
     for endpoint in endpoints:
         print(endpoint)
